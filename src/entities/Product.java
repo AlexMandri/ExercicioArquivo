@@ -42,6 +42,6 @@ public class Product {
 	}
 	
 	public String toString() {
-		return nome + ", "+ String.format("%.2f"+total()) ;
+		return nome + ", "+ String.format("%.2f",total()) ;
 	}
 }
